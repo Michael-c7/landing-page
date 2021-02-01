@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-git ad
+
+:root {
+    /*color scheme,
+    light to dark*/
+    --orange-050:#F5A666;
+    --orange-100:#D68E0C;
+    --yellow-050:#ECE087;
+    --red-050:#BB370C;
+    --black-050:#2E2C34;
+    --white-050:#EBEBED;
+    }
+
+
 /*default styles*/
 *,
 *::before,
@@ -9,8 +21,17 @@ git ad
     margin:0;
 }
 
+html {
+    height: 100%;
+}
 
 body {
     font-family: 'Roboto','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: rgb(245,148,102);
+    background: linear-gradient(125deg, rgba(245,148,102,1) 7%, rgba(245,166,102,1) 49%, rgba(236,224,135,1) 96%);
 }
 
