@@ -16,56 +16,61 @@
 
         <article class="landing-page">
             <nav class="landing-page__nav">
-                <ul>
-                    <li>
-                        <ul>
-                            <li>EN</li>
-                            <li>ES</li>
-                            <li>ZH</li>
-                            <li>HI</li>
-                            <li>AR</li>
-                            <li>BN</li>
+                <ul class="landing-page__nav__items">
+                    <li class="landing-page__nav__item country-dropdown">
+                        <ul class="nav__item__countries">
+                            <li class="nav__item__country">EN</li>
+                            <!-- <li class="nav__item__country">ES</li>
+                            <li class="nav__item__country">ZH</li>
+                            <li class="nav__item__country">HI</li>
+                            <li class="nav__item__country">AR</li>
+                            <li class="nav__item__country">BN</li> -->
                         </ul>
-                        <span><i class="fa fa-chevron-down"></i></span>
+                        <span><i class="fa fa-chevron-down item__country__icon"></i></span>
                     </li>
 
-                    <li>Contact</li>
-                    <li>Login</li>
-                    <li><button>Sign Up</button></li>
+                    <li class="landing-page__nav__item">Contact</li>
+                    <li class="landing-page__nav__item">Log in</li>
+                    <li class="landing-page__nav__item"><button class="sign-up-btn btn-style-1">Sign Up</button></li>
                 </ul>
             </nav>
-            <main>
-                <h1>Food delivery from the best restaurants in your town</h1>
-                <h2>Food, drinks and deserts available for delivery or pickup.</h2>
-                <section>
-                    <div>
-                        <input type="text" placeholder="Enter delivery address">
-                    </div>
-                    <button>FIND FOOD</button>
-                </section>
-            </main>
+            <section class="landing-page__section">
+                <div class="section__content">
+                    <h1>Food delivery from the best restaurants in your town</h1>
+                    <h2>Food, drinks and deserts available for delivery or pickup.</h2>
+                    <section class="search-address-container">
+                        <div class="search-address__input-container">
+                            <i class="fa fa-location-arrow search-arrow-icon"></i>
+                            <input class="search-address__input" type="text" placeholder="Enter delivery address">  
+                        </div>
+                        <button class="find-food-btn btn-style-1">FIND FOOD</button>
+                    </section>
+                </div>
+            </section>
             <footer class="landing-page__footer">
-                <section>
-                    <ul>
-                        <li>Terms of Privacy</li>
-                        <li>Cookies</li>
-                        <li>About</li>
-                        <li>Contact</li>
-                    </ul>
-                </section>
-
-                <section>
-                    <ul>
-                        <li>&copy; 2021</li>
-                    </ul>
-                </section>
-
-                <section>
-                    <ul>
-                        <li><i class="fa fa-facebook"></i></li>
-                        <li><i class="fa fa-twitter"></i></li>
-                    </ul>
-                </section>
+                <div class="footer__inner">
+                    <section class="landing-page__footer__terms">
+                        <ul class="terms__items">
+                            <li class="terms__item"><a href="#">Terms of Privacy</a></li>
+                            <li class="terms__item"><a href="#">Cookies</a></li>
+                            <li class="terms__item"><a href="#">About</a></li>
+                            <li class="terms__item"><a href="#">Contact</a></li>
+                        </ul>
+                    </section>
+    
+                    <section class="landing-page__footer__middle">
+                        <ul class="middle-items">
+                            <li>&copy; 2021</li>
+                        </ul>
+                    </section>
+    
+                    <section class="landing-page__footer__social">
+                        <ul class="social__icons">
+                            <li><a href="#"><i class="fa fa-facebook social-icon"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter social-icon"></i></a></li>
+                        </ul>
+                    </section>
+                </div>
             </footer>
         </article>
               
