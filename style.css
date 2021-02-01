@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+git ad
+/*default styles*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+
+body {
+    font-family: 'Roboto','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
